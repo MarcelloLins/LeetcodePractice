@@ -21,7 +21,7 @@ class Solution:
             return listOne
 
         head = merged = ListNode()
-        while listOne.next and listTwo.next:
+        while not (listOne is None or listTwo is None):
             
             if listOne.value < listTwo.value:
                 current = listOne
@@ -34,7 +34,7 @@ class Solution:
             merged = merged.next
         
         # Links whichever of the two lists has a next element, if any
-        merged.next = listOne.next or listTwo.next
+        merged.next = listOne or listTwo
         return head.next
 
 class SolutionUnitTest(unittest.TestCase):
