@@ -28,10 +28,6 @@ class TwoSum:
         return None
 
 class TwoSumUnitTest(unittest.TestCase):
-    def setup(self):
-        pass
-    def tearDown(self):
-        pass
     def testsingleNumber(self):
         code = TwoSum()
 

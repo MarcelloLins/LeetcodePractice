@@ -39,11 +39,6 @@ class Solution:
 
 
 class SolutionUnitTest(unittest.TestCase):
-    def setup(self):
-        pass
-    def tearDown(self):
-        pass
-
     def test_are_parenthesis_valid(self):
         solution = Solution()
         

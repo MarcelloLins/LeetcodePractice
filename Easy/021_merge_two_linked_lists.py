@@ -38,11 +38,6 @@ class Solution:
         return head.next
 
 class SolutionUnitTest(unittest.TestCase):
-    def setup(self):
-        pass
-    def tearDown(self):
-        pass
-
     def test_merge_two_lists(self):
         code = Solution()
 
