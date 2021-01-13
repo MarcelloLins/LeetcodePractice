@@ -16,7 +16,7 @@ Output: ["()"]
 import unittest
 
 class Solution(object):
-
+    
     def _generate_backtrack(self, results, current_string, opens, closes, n):
         # Have we reached the maximum string size ? 
         # Because we need PAIRS of parenthesis, strings can't be bigger than n * 2 (or twice the number of pairs we are targetting)
